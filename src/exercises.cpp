@@ -14,7 +14,7 @@ void exercise_1() {
   // Your code here
 
   std::cout << "My first C-program\n";
-  std::cout << "Can write on two lines";
+  std::cout << "Can write on two lines" << std::endl;
 }
 
 /*
@@ -28,7 +28,9 @@ Area of the triangle: 10.000000
 */
 void exercise_2(double base, double height) {
   // Your code here
-  std::cout << base * height * 0.5;
+  double area = (double)(base * height) * 0.5;
+  std::cout << "Area of the traingle: " << (double)area << ".000000"
+            << std::endl;
 }
 
 /*
