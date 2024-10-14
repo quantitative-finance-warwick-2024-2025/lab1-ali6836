@@ -13,7 +13,8 @@ Can write on two lines
 void exercise_1() {
   // Your code here
 
-  std::cout << "My first C-program" << std::endl << "Can write on two lines";
+  std::cout << "My first C-program" << std::endl;
+  std::cout << "Can write on two lines";
 }
 
 /*
