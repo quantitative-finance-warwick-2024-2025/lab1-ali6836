@@ -14,7 +14,7 @@ void exercise_1() {
   // Your code here
 
   std::cout << "My first C-program\n";
-  std::cout << "Can write on two lines" << std::endl;
+  std::cout << "Can write on two lines";
 }
 
 /*
